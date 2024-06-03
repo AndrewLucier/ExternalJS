@@ -1,0 +1,43 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(167, 180, 183);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: rgb(49, 2, 25);
+    font-size: 2.5mm;
+    margin-bottom: 20px;
+
+}
+
+div{
+    background-color: rgb(247, 235, 235);
+    color: rgb(116, 0, 0);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(116, 0, 0, .5);
+} 
+
+/* these styles will generally apply to mobile devices */
+@media (max-width: 600px){
+    body{
+        padding: 10px;
+    }
+
+    div{
+        width: 100%;
+        margin: 5px;
+    }
+
+    h1{
+        font-size: 2cm;
+    }
+}
